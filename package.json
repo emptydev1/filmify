@@ -1,0 +1,32 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "A package that allows you to get movie information.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptydev1/movies.git"
+  },
+  "keywords": [
+    "movies",
+    "the movies database",
+    "package",
+    "easy",
+    "information"
+  ],
+  "author": "emptydev1",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/emptydev1/movies/issues"
+  },
+  "homepage": "https://github.com/emptydev1/movies#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
