@@ -17,7 +17,7 @@ npm install emptydev1/movies
 
 <h1 align="center">Como utilizar</h1>
 
-<p>Aqui está um exemplo de como usar esta biblioteca:</p>
+<p align="center">Aqui está um exemplo de como usar esta biblioteca:</p>
 
 ```js
 const search = require("movies");
@@ -26,7 +26,7 @@ const film = await search("Homem Aranha");
 console.log(film);
 ```
 
-<p>Isso retornará um objeto com as informações do filme encontrado. Aqui está um exemplo:</p>
+<p align="center">Isso retornará um objeto com as informações do filme encontrado. Aqui está um exemplo:</p>
 
 ```js
 {
@@ -75,6 +75,6 @@ console.log(film);
 }
 ```
 
-## Contribuir
+<h1 align="center">Contribuir</h1>
 
-Sinta-se à vontade para contribuir com esta biblioteca por meio de pull requests ou issues no repositório do GitHub.
+<p align="center">Sinta-se à vontade para contribuir com esta biblioteca por meio de pull requests ou issues no repositório do GitHub.</p>
