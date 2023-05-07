@@ -1,32 +1,32 @@
-<h1 align="center">Movies</h1>
+<h1 align="center">Filmify</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/movies.svg" alt="npm version">
-  <img src="https://img.shields.io/github/license/emptydev1/movies.svg" alt="license">
+  <img src="https://img.shields.io/npm/v/filmify.svg" alt="npm version">
+  <img src="https://img.shields.io/github/license/emptydev1/filmify.svg" alt="license">
 </p>
 
-<p align="center">Uma biblioteca simples para obter informações sobre filmes através do nome.</p>
+<p align="center">A simple library to get information about movies by name.</p>
 
-<h1 align="center">Instalação</h1>
+<h1 align="center">Instalation</h1>
 
-<p align="center">Para instalar esta biblioteca em sua máquina diretamente do GitHub, execute o seguinte comando em seu terminal:</p>
+<p align="center">To install this library on your machine, run the following command in your terminal:</p>
 
 ```sh-session
-npm install emptydev1/movies
+npm install filmify --save
 ```
 
-<h1 align="center">Como utilizar</h1>
+<h1 align="center">How to Use</h1>
 
-<p align="center">Aqui está um exemplo de como usar esta biblioteca:</p>
+<p align="center">Here is an example of how to use this library:</p>
 
 ```js
-const search = require("movies");
-const film = await search("Homem Aranha");
+const Search = require("filmify");
+const film = await Search("Homem Aranha");
 
 console.log(film);
 ```
 
-<p align="center">Isso retornará um objeto com as informações do filme encontrado. Aqui está um exemplo:</p>
+<p align="center">This will return an object with the information of the found movie. Here is an example:</p>
 
 ```js
 {
@@ -75,6 +75,6 @@ console.log(film);
 }
 ```
 
-<h1 align="center">Contribuir</h1>
+<h1 align="center">Contribute</h1>
 
-<p align="center">Sinta-se à vontade para contribuir com esta biblioteca por meio de pull requests ou issues no repositório do GitHub.</p>
+<p align="center">Feel free to contribute to this library via pull requests or issues in the GitHub repository.</p>
