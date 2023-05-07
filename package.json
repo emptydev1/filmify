@@ -1,5 +1,5 @@
 {
-  "name": "movies",
+  "name": "filmify",
   "version": "1.0.0",
   "description": "A package that allows you to get movie information.",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emptydev1/movies.git"
+    "url": "git+https://github.com/emptydev1/filmify.git"
   },
   "keywords": [
     "movies",
@@ -20,9 +20,9 @@
   "author": "emptydev1",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/emptydev1/movies/issues"
+    "url": "https://github.com/emptydev1/filmify/issues"
   },
-  "homepage": "https://github.com/emptydev1/movies#readme",
+  "homepage": "https://github.com/emptydev1/filmify#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
   },
