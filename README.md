@@ -75,6 +75,8 @@ console.log(film);
 }
 ```
 
+<p><b>Notice:</b> If it was not possible to find any results for the specific movie, an empty object will be returned.</p>
+
 <h1 align="center">Contribute</h1>
 
 <p align="center">Feel free to contribute to this library via pull requests or issues in the GitHub repository.</p>
